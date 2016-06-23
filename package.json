@@ -1,7 +1,7 @@
 {
   "name": "behat-tools",
   "main": "./lib/behat-tools",
-  "version": "v0.1.0",
+  "version": "v0.1.2",
   "description": "Set of tools for Behat",
   "keywords": ["Behat", "Tests"],
   "activationCommands": {
