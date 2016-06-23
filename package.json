@@ -1,14 +1,14 @@
 {
-  "name": "behat-tools",
+  "name": "Behat Tolls",
   "main": "./lib/behat-tools",
-  "version": "0.0.1",
+  "version": "v0.1.0",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": ["behat-tools:findCommand", "behat-tools:run"]
   },
-  "repository": "https://github.com/atom/behat-tools",
+  "repository": "https://github.com/rafaelnery/behat-tools",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
