@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle behat-tools",
+        "command": "behat-tools:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "behat-tools",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "behat-tools:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
