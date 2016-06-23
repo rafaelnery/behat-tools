@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "behat-tools:toggle"
+    "ctrl-h": "behat-tools:findCommand",
+    "alt-r":  "behat-tools:run"
   }
 }
