@@ -2,25 +2,39 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle behat-tools",
-        "command": "behat-tools:toggle"
+        "label": "Run with Behat",
+        "command": "behat-tools:run"
       }
     ]
   },
   "menu": [
     {
+      "label": "Selection",
+      "submenu": [
+        {
+          "label": "Run with Behat",
+          "command": "behat-tools:run"
+        }
+      ]
+    },
+    {
       "label": "Packages",
       "submenu": [
         {
-          "label": "behat-tools",
+          "label": "Behat Tools",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "behat-tools:toggle"
+              "label": "Run/Run Selection",
+              "command": "behat-tools:run"
+            },
+            {
+              "label": "Find Command",
+              "command": "behat-tools:findCommand"
             }
           ]
         }
       ]
     }
+
   ]
 }

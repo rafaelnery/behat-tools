@@ -4,4 +4,6 @@
 
   Install
 -----------
-> Soon...
+```console
+apm install behat-tools
+```

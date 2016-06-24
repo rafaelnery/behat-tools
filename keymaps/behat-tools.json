@@ -2,5 +2,9 @@
   "atom-workspace": {
     "ctrl-h": "behat-tools:findCommand",
     "alt-r":  "behat-tools:run"
+  },
+
+  "atom-workspace .behat-tools" : {
+    "escape" : "behat-tools:hideFinder"
   }
 }
