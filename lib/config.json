@@ -1,19 +1,33 @@
 {
-  "php-bin" : {
-    "description" : "Location PHP bin",
-    "type" : "string",
-    "default" : "/usr/bin/php"
-  },
+  "path": {
+    "title"      : "Paths",
+    "type"       : "object",
+    "properties" : {
 
-  "behat-bin" : {
-    "description" : "Location BEHAT bin",
-    "type" : "string",
-    "default" : "vendor/bin/behat"
-  },
+      "php-bin": {
+        "title"       : "Path for PHP bin",
+        "type"        : "string",
+        "default"     : "/usr/bin/php"
+      },
 
-  "language" : {
-    "description" : "Speak this, that, those ",
-    "type" : "string",
-    "default" : "en_US"
+      "behat-bin": {
+        "title"       : "Path for BEHAT bin",
+        "description" : "Location BEHAT bin",
+        "type"        : "string",
+        "default"     : "vendor/bin/behat"
+      }
+    }
+  },
+  "runtime": {
+    "title"      : "Runtime Options",
+    "type"       : "object",
+    "properties" : {
+      "language": {
+        "description" : "Output language for Behat",
+        "type"        : "string",
+        "default"     : "en_US",
+        "enum"        : ["pt_BR", "en_US"]
+      }
+    }
   }
 }
