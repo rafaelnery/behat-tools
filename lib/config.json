@@ -1,0 +1,19 @@
+{
+  "php-bin" : {
+    "description" : "Location PHP bin",
+    "type" : "string",
+    "default" : "/usr/bin/php"
+  },
+
+  "behat-bin" : {
+    "description" : "Location BEHAT bin",
+    "type" : "string",
+    "default" : "vendor/bin/behat"
+  },
+
+  "language" : {
+    "description" : "Speak this, that, those ",
+    "type" : "string",
+    "default" : "en_US"
+  }
+}
