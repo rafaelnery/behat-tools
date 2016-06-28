@@ -4,13 +4,13 @@
     "type"       : "object",
     "properties" : {
 
-      "php-bin": {
+      "php_bin": {
         "title"       : "Path for PHP bin",
         "type"        : "string",
         "default"     : "/usr/bin/php"
       },
 
-      "behat-bin": {
+      "behat_bin": {
         "title"       : "Path for BEHAT bin",
         "description" : "Location BEHAT bin",
         "type"        : "string",
@@ -25,8 +25,8 @@
       "language": {
         "description" : "Output language for Behat",
         "type"        : "string",
-        "default"     : "en_US",
-        "enum"        : ["pt_BR", "en_US"]
+        "default"     : "en",
+        "enum"        : ["pt", "en"]
       }
     }
   }
