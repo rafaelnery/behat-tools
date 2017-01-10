@@ -10,6 +10,12 @@
         "default"     : "/usr/bin/php"
       },
 
+      "behat_config": {
+        "title"       : "Config path",
+        "type"        : "string",
+        "default"     : "behat.yml"
+      },
+
       "behat_bin": {
         "title"       : "Path for BEHAT bin",
         "description" : "Location BEHAT bin",
